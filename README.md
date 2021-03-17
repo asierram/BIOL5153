@@ -10,6 +10,6 @@ assn03.tgz contains the remote computing assignment completed on 3/13/2021
 
 
 ![PBS](PBS.png)
-
+![SLURM](SLURM.png)
 
 

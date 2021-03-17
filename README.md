@@ -6,10 +6,10 @@ assn03.tgz contains the remote computing assignment completed on 3/13/2021.
 
 
 
-
-
-
+PBS -> Screen shot that shows the pwd and script commands, followed by the output of the script
 ![PBS](PBS.png)
+
+SLURM -> Screen shot that shows the pwd and script commands, followed by the output of the script
 ![SLURM](SLURM.png)
 
 

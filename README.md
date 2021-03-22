@@ -14,3 +14,4 @@ SLURM -> Screen shot that shows the pwd and script commands, followed by the out
 ![SLURM](SLURM.png)
 
 
+Assn05-> Python script called nucleotide_composition.py 

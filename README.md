@@ -1,17 +1,25 @@
 # BIOL5153
 
-Assignment repository. 
-CV_AndreaSierra.md -> assignment 2. 
-assn03.tgz contains the remote computing assignment completed on 3/13/2021. 
+### **Assignment's repository**
+#### Assignment 2
+**[CV_AndreaSierra.md](https://github.com/asierram/BIOL5153/blob/main/CV_AndreaSierra.md)** - Markdown formatted CV
 
+#### Assignment 3
+**[assn03.tgz](https://github.com/asierram/BIOL5153/blob/main/assn03.tgz)** contains all the file regarding the remote computing assignment. 
 
-Assn04-> Python scripts called write_pinnacle_slurm.py and write_razor_pbs.py
+#### Assignment 4
 
-PBS -> Screen shot that shows the pwd and script commands, followed by the output of the script
+Python scripts called **[write_pinnacle_slurm.py](https://github.com/asierram/BIOL5153/blob/main/write_pinnacle_slurm.py)** and **[write_razor_pbs.py](https://github.com/asierram/BIOL5153/blob/main/write_razor_pbs.py)**
+
+**PBS**: Screen shot that shows the pwd and script commands, followed by the output of the script
 ![PBS](PBS.png)
 
-SLURM -> Screen shot that shows the pwd and script commands, followed by the output of the script
+**SLURM**: Screen shot that shows the pwd and script commands, followed by the output of the script
 ![SLURM](SLURM.png)
 
+#### Assignment 5
 
-Assn05-> Python script called nucleotide_composition.py 
+**[nucleotide_composition.py](https://github.com/asierram/BIOL5153/blob/main/nucleotide_composition.py)**: This python script provides nucleotide composition statistics for a provided sequence
+
+#### Assignment 6
+**[parseGFF.py](https://github.com/asierram/BIOL5153/blob/main/parseGFF.py)** : This script extracts a feature in a .gff file from a larger genomic FASTA sequence and prints it to standard out

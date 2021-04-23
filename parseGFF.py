@@ -34,7 +34,7 @@ with open(args.gff, 'r') as gff_in:
     #loop over all the lines in our reader object (i.e., parsed file)
     for line in reader:
         start = int(line[3])-1
-        end = int(line[4])-1
+        end = int(line[4])+1
         strand = line[6]
         feature = line[8]
 
@@ -44,4 +44,4 @@ with open(args.gff, 'r') as gff_in:
         elif strand=='+':
             print('>',genome.id,feature)
             print(genome.seq[start:end])
-    
+    	

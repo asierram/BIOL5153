@@ -76,27 +76,18 @@ with open(args.gff, 'r') as gff_in:
                     gene_dict[gene[0]].append(fragment)
 
 for gene_name in gene_dict:
-    print('>'+ genome.id + '_' + gene_name)
-    print(gene_dict[gene_name][1:])
-    
+    if (gene_dict[gene_name][0] == "-"):
+        print('>'+ genome.id + '_' + gene_name) 
+        merge= str('')
+        for line in gene_dict[gene_name][1:]:
+            merge += line
+            CDS= merge.reverse_complement()
+            print(CDS)
 
-
-
-
-            
-
-
-                
-                #print('>'+ genome.id + ' '+ attributes)
-                #fragment= genome.seq[int(start)-1:int(end)]
-                #print(fragment)
-                    
-    #build party dictionary
-           # #test whether this key (party) exists in our dictionary
-           # #if it exists, increment the count (value) by 1
-           #if(party[party_name]):
-               #party[party_name]+=1
-            #else this is the first time we have seen this party
-            #so set the value equal to 1
-           #else:
-               #party[party_name] = 1
+    if (gene_dict[gene_name][0] == "+"):
+        print('>'+ genome.id + '_' + gene_name)
+        merge= str('')
+        for line in gene_dict[gene_name][1:]:
+            merge += line
+            CDS=merge
+            print(CDS)

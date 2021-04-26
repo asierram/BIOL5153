@@ -26,16 +26,7 @@ args = parser.parse_args()
 # read in FASTA file  
 genome = SeqIO.read(args.fasta,'fasta')#you have to use fasta will not recognize fsa, fa
 
-# Reverse complement function
-def rev_comp(fragment, strand):
-    if(strand == "-"):
-        fragment = fragment.reverse_complement()
-        return(fragment)
-    elif (strand=='+'):
-        return(fragment)
-
     
-
 ## Extracting the [CDS] 
 
 #dictionary: key= gene name, value = list of exon(s) for that gene
